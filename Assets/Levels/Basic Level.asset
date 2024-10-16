@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d41f312f9e44d04eb9881d5686b8b5a, type: 3}
+  m_Name: Basic Level
+  m_EditorClassIdentifier: 
+  levelName: normal
+  levelDescription: basic sqump gameplay
+  levelColor: {r: 0, g: 1, b: 0, a: 1}
+  availablePlatforms:
+  - {fileID: 8223920460693485772, guid: 12afa2342e02c6c4293d91af64359652, type: 3}
+  - {fileID: 4527470102098831951, guid: fcb0bdb8e93a27144b6a1015770311f5, type: 3}
+  - {fileID: 5830799676687641384, guid: 269148a84d1b4e6429b7a4b0a5b4bec7, type: 3}
+  - {fileID: 4832534665476604081, guid: 348b0e29109b4b6438d350bc9344ad98, type: 3}
+  - {fileID: 3325602916413110093, guid: fac9ac56f5d0a7847974da42cae2da06, type: 3}
+  dontRandomizePostProcessing: 0
+  enableTimer: 0
+  timePerPlatform: 0
+  highscorekey: normalhs
+  minmaxXSpacing: {x: 10, y: 13}
+  minmaxYSpacing: {x: -2, y: 2}
+  minmaxLevelSize: {x: 5, y: 16}
+  randomizeDirectionOnEachPlatform: 0
+  allowDash: 0
+  dashCooldown: 0
+  doubleJumpAmount: 0

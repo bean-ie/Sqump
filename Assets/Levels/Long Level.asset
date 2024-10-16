@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d41f312f9e44d04eb9881d5686b8b5a, type: 3}
+  m_Name: Long Level
+  m_EditorClassIdentifier: 
+  levelName: long
+  levelDescription: very big levels to test your endurance
+  levelColor: {r: 0, g: 0.7595482, b: 1, a: 1}
+  availablePlatforms:
+  - {fileID: 8223920460693485772, guid: 12afa2342e02c6c4293d91af64359652, type: 3}
+  - {fileID: 4527470102098831951, guid: fcb0bdb8e93a27144b6a1015770311f5, type: 3}
+  - {fileID: 4961324046653120810, guid: e916f99af6ca35c48a925ac18809d52d, type: 3}
+  - {fileID: 5830799676687641384, guid: 269148a84d1b4e6429b7a4b0a5b4bec7, type: 3}
+  - {fileID: 8545459083245798974, guid: 947ddf6e5db716d40aacb94afcb1f65f, type: 3}
+  - {fileID: 3325602916413110093, guid: fac9ac56f5d0a7847974da42cae2da06, type: 3}
+  dontRandomizePostProcessing: 0
+  enableTimer: 0
+  timePerPlatform: 0
+  highscorekey: longhs
+  minmaxXSpacing: {x: 10, y: 13}
+  minmaxYSpacing: {x: -2, y: 2}
+  minmaxLevelSize: {x: 40, y: 42}
+  randomizeDirectionOnEachPlatform: 0
+  allowDash: 0
+  dashCooldown: 0
+  doubleJumpAmount: 0

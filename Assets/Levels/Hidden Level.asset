@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d41f312f9e44d04eb9881d5686b8b5a, type: 3}
+  m_Name: Hidden Level
+  m_EditorClassIdentifier: 
+  levelName: hidden
+  levelDescription: every platform looks the same
+  levelColor: {r: 1, g: 0, b: 0.81019783, a: 1}
+  availablePlatforms:
+  - {fileID: 8223920460693485772, guid: 12afa2342e02c6c4293d91af64359652, type: 3}
+  - {fileID: 7069031989030695198, guid: 7957fe44b3eccc240aa8886591bb079a, type: 3}
+  - {fileID: 3424160167316907222, guid: 52a5b149b923a974c97539ddac903072, type: 3}
+  - {fileID: 1411632924061293920, guid: e28f05912fe2bcd49ac812c66010199d, type: 3}
+  - {fileID: 2062808867574825209, guid: e56d3e2252b8f85468cd089fc42ce13a, type: 3}
+  - {fileID: 3530308595242814763, guid: a53810a2723a0554f925cdcc81d97319, type: 3}
+  dontRandomizePostProcessing: 0
+  enableTimer: 0
+  timePerPlatform: 0
+  highscorekey: hiddenhs
+  minmaxXSpacing: {x: 10, y: 13}
+  minmaxYSpacing: {x: -2, y: 2}
+  minmaxLevelSize: {x: 5, y: 16}
+  randomizeDirectionOnEachPlatform: 0
+  allowDash: 0
+  dashCooldown: 0
+  doubleJumpAmount: 0
